@@ -1,0 +1,9 @@
+{
+  "trained_at": 1761392142.2892709,
+  "n_normal_samples": 440,
+  "n_adversarial_samples": 200,
+  "contamination": 0.1,
+  "robust_training": true,
+  "adversarial_defense": true,
+  "model_version": "v2.0_robust"
+}
