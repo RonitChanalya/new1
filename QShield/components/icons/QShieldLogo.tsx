@@ -1,0 +1,22 @@
+import React from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+interface IconProps {
+  size?: number;
+  color?: string;
+}
+
+export function QShieldLogo({ size = 24, color = 'currentColor' }: IconProps) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+      <Path 
+        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" 
+        fill="none" 
+        stroke={color} 
+        strokeWidth="2" 
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+      />
+    </Svg>
+  );
+}
